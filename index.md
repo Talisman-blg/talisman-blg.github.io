@@ -1,12 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: Творческая студия Рыжик
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+description: Творческая студия Рыжик в городе Благовещенск
+intro_image: "images/illustrations/main.svg"
+intro_image_absolute: false
+intro_image_hide_on_mobile: false
+show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Творческая студия Рыжик
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Проводим творческие занятия для детей и взрослых
