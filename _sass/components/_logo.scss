@@ -1,6 +1,6 @@
 .logo {
   display: none;
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(lg) {
     display: block;
   }
   img {
