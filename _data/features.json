@@ -1,7 +1,7 @@
 [
   {
-    "title": "Групповые занятия",
-    "description": "Групповые творческие занятия в малых и больших группах",
+    "title": "Авторская роспись по дереву",
+    "description": "Авторская роспись по дереву",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "Летний интенсив",
-    "description": "Недельные интенсивы для детей на полный день.",
+    "title": "Ловцы снов не как у всех",
+    "description": "Ловцы снов не как у всех",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "Квесты",
-    "description": "Интересные тематические квесты",
+    "title": "Изделия из кожи, перьев, клыки",
+    "description": "Изделия из кожи, перьев, клыки",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
