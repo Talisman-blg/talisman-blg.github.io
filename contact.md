@@ -1,16 +1,19 @@
 ---
-title: Contact
+title: Контакты
 layout: contact
-bodyClass: page-contact
+description: Contact
 ---
+> Пишите в ватсапп в любое удобное для вас время, а звонить лучше только в рабочее. Студия работает по предварительной записи или по гибкому расписаннию групповых занятий.
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+<image src="https://static.maps.2gis.com/1.0?s=750x450&c=50.26455,127.53614&z=16&pt=50.26465,127.53602" >
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+<p>
+      <div class="call-email"><strong>Мы в 2GIS: </strong>
+      <a href="https://go.2gis.com/jw3ta">
+        Перейти на полную карту
+      </a>
+    </div>
+    </p>
+
+
+

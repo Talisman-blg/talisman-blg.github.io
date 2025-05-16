@@ -1,10 +1,23 @@
 <div class="call">
   <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    {% if site.data.contact.adress" %}
+    <p>
+      <div class="call-email"><strong>Мы находимся: </strong> {{ site.data.contact.adress }}
+         </div>
+    </p>
     {% endif %}
+    {% if site.data.contact.phone %}
+        <div class="call-phone"><strong>Звоните: </strong> {{ site.data.contact.phone }} </div>
+    {% endif %}
+    <p>
+      <div class="call-email"><strong>Пишите в ватсап: </strong>
+      <a href="https://wa.me/+79243487844">
+        Нажми чтобы написать
+      </a>
+    </div>
+    </p>
     {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
+    <div class="call-email"><strong>Пишите: </strong>
       <a href="mailto:{{ .site.data.contact.email }}">
         {{ site.data.contact.email }}
       </a>
@@ -13,7 +26,7 @@
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Связаться</a>
       </div>
     {% endif %}
 </div>

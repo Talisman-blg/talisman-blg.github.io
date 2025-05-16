@@ -1,11 +1,12 @@
 ---
-title: Team
+title: Команда
 layout: teams
-permalink: /team/
+description: Команда
+permalink: "/team/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Наша команда
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Наша хоть ещё и маленькая, но очень хорошая команда

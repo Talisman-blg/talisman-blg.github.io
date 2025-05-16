@@ -1,17 +1,29 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Групповые занятия",
+    "description": "Групповые творческие занятия в малых и больших группах",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "Летний интенсив",
+    "description": "Недельные интенсивы для детей на полный день.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Квесты",
+    "description": "Интересные тематические квесты",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]

@@ -1,40 +1,39 @@
-baseurl: '/jekyll-serif-theme/'
+url: "/"
 permalink: pretty
-title: 'Jekyll Serif'
-
-google_analytics_id: ""
-
-homepage:
-  show_call_box: true
+title: 'Студия Рыжик'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
+  desktop_height: "32px"
+  desktop_width: "120px"
 
-footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
-
-seo:
-  meta_og_title: "Jekyll Serif Theme"
-  meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
-  meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+home: 
+  limit_services: 6
 
 collections:
   services:
     output: true
+    sort_by: weight
   team:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
 sass:
-  indentWidth: 4
-  style: compact # possible values: nested expanded compact compressed
-  precision: 10
+  style: expanded  # possible values: nested expanded compact compressed
 
 plugins:
   - jekyll-environment-variables
@@ -50,3 +49,15 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+carousels:
+  - images: 
+    - image: /images/photo_1.jpg
+    - image: /images/photo_2.jpg
+    - image: /images/photo_3.jpg
+    - image: /uploads/slider/image4.jpg
+  - images: 
+    - image: /uploads/slider/image5.jpg
+    - image: /uploads/slider/image6.jpg
+    - image: /uploads/slider/image7.jpg
+    - image: /uploads/slider/image8.jpg
