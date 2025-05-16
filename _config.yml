@@ -4,11 +4,11 @@ title: 'Авторская студия Талисман'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "64px"
-  mobile_width: "120px"
+  mobile_height: "21px"
+  mobile_width: "69px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "320px"
-  desktop_width: "1200px"
+  desktop_height: "208px"
+  desktop_width: "690px"
 
 home: 
   limit_services: 6
