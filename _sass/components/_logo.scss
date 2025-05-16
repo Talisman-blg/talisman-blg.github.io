@@ -1,10 +1,10 @@
 .logo {
   display: none;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(sm) {
     display: block;
   }
   img {
-    max-width: 100%;
+    max-width: unset;
   }
   a {
     display: block;
